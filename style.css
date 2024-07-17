@@ -36,7 +36,20 @@ nav {
     padding: 28px 0 0 0;
 }
 
-.btns button {
+.btns>:nth-child(1) {
+    margin: 0 30px 0 0;
+    border: 1px solid white;
+    width: 125px;
+    height: 35px;
+    background-color: #00000040;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btns>:nth-child(2) {
     margin: 0 30px 0 0;
     width: 70px;
     height: 35px;
@@ -93,19 +106,25 @@ nav {
     justify-content: center;
 }
 
+.input input::placeholder {
+    font-weight: bold;
+}
+
 .input> :nth-child(1) {
     font-family: "Martel Sans", sans-serif;
+    font-weight: bolder;
     padding: 0 0 0 10px;
     margin: 0 10px;
     width: 350px;
     height: 60px;
     opacity: 0.8;
-    background-color: #2f3845;
+    background-color: #2f3845a6;
     color: white;
     border: 1px solid white;
     border-radius: 4px;
 }
-.input>:nth-child(2){
+
+.input>:nth-child(2) {
     font-family: "Martel Sans", sans-serif;
     width: 200px;
     height: 60px;
@@ -115,4 +134,53 @@ nav {
     font-weight: bold;
     color: white;
     font-size: 25px;
+}
+
+.break {
+    height: 8px;
+    background-color: #383636;
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+
+.image1 {
+    width: 700px;
+    margin: 30px 50px 0 -20px;
+    position: relative;
+    padding: 0 150px 0 0;
+}
+
+.image1 img {
+    position: relative;
+    z-index: 10;
+    left: 108px;
+}
+
+.image1 video {
+    position: absolute;
+    top: 92px;
+    right: 118px;
+}
+
+.subs1 {
+    padding: 0 0 0 100px;
+}
+
+.subs1 h2 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900px;
+    font-size: 42px;
+}
+
+.subs1 p {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
 }
