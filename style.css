@@ -143,7 +143,7 @@ nav {
 
 
 .first {
-    padding: 70px 0;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     color: white;
@@ -188,7 +188,7 @@ nav {
 
 
 .second {
-    padding: 70px 0;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     color: white;
@@ -208,7 +208,7 @@ nav {
 }
 
 .third {
-    padding: 70px 0;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     color: white;
@@ -247,6 +247,27 @@ nav {
 }
 
 .subs3 p {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.fourth {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.subs4 h2 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.subs4 p {
     font-family: "Martel Sans", sans-serif;
     font-weight: 400;
     font-size: 24px;
