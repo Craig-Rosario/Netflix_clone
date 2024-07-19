@@ -143,6 +143,7 @@ nav {
 
 
 .first {
+    padding: 70px 0;
     display: flex;
     justify-content: center;
     color: white;
@@ -187,18 +188,65 @@ nav {
 
 
 .second {
+    padding: 70px 0;
     display: flex;
     justify-content: center;
     color: white;
     align-items: center;
 }
 
-.subs2 h2{
+.subs2 h2 {
     font-family: "Martel Sans", sans-serif;
     font-weight: 900;
     font-size: 42px;
 }
+
 .subs2 p {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.third {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+
+.image3 {
+    width: 700px;
+    margin: 30px 50px 0 -20px;
+    position: relative;
+    padding: 0 150px 0 0;
+}
+
+.image3 img {
+    position: relative;
+    z-index: 10;
+    left: 108px;
+}
+
+.image3 video {
+    width: 400px;
+    position: absolute;
+    top: 38px;
+    right: 165px;
+}
+
+.subs3 {
+    padding: 0 0 0 100px;
+}
+
+.subs3 h2 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.subs3 p {
     font-family: "Martel Sans", sans-serif;
     font-weight: 400;
     font-size: 24px;
