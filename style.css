@@ -272,3 +272,23 @@ nav {
     font-weight: 400;
     font-size: 24px;
 }
+
+
+footer {
+    background-color: black;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.f1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
