@@ -266,13 +266,85 @@ nav {
     color: white;
     height: 900px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .faq {
     font-size: 48px;
     font-weight: 900;
     font-family: "Martel Sans", sans-serif;
+}
+
+.questions {
+    margin: 0 0 0 0;
+}
+
+.one {
+    margin: 0 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.two {
+    margin: 10px 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.three {
+    margin: 10px 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.four {
+    margin: 10px 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.five {
+    margin: 10px 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.six {
+    margin: 10px 0 10px 0;
+    background-color: rgb(45, 45, 45);
+    height: 44px;
+    width: 75vw;
+    align-content: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .subs4 h2 {
