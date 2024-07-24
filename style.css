@@ -289,7 +289,12 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+}
 
+.one p {
+    margin: -20px 0 0px 915px;
+    font-size: 51px;
 }
 
 .two {
@@ -301,6 +306,12 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex
+}
+
+.two p {
+    margin: -20px 21px 0px 764px;
+    font-size: 51px;
 }
 
 .three {
@@ -312,6 +323,12 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+}
+
+.three p {
+    margin: -20px 21px 0px 876px;
+    font-size: 51px;
 }
 
 .four {
@@ -323,6 +340,13 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+}
+
+.four p {
+    margin: -20px 21px 0px 908px;
+    font-size: 51px;
+
 }
 
 .five {
@@ -334,6 +358,12 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+}
+
+.five p {
+    margin: -20px -128px 0px 770px;
+    font-size: 51px;
 }
 
 .six {
@@ -345,6 +375,13 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
+    display: flex;
+}
+
+.six p {
+    margin: -21px -85px 0px 830px;
+    font-size: 51px;
+
 }
 
 .subs4 h2 {
