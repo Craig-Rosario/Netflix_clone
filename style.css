@@ -384,6 +384,12 @@ nav {
 
 }
 
+.last_info {
+    margin: 37px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .subs4 h2 {
     font-family: "Martel Sans", sans-serif;
     font-weight: 900;
