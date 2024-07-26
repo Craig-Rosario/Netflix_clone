@@ -290,11 +290,16 @@ nav {
     font-size: 24px;
     font-weight: 400;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .one p {
     margin: -20px 0 0px 915px;
     font-size: 51px;
+}
+.one:hover{
+    background-color: #9a9a9a66;
 }
 
 .two {
@@ -306,12 +311,18 @@ nav {
     padding: 20px;
     font-size: 24px;
     font-weight: 400;
-    display: flex
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .two p {
     margin: -20px 21px 0px 764px;
     font-size: 51px;
+    
+}
+.two:hover{
+    background-color: #9a9a9a66;
 }
 
 .three {
@@ -324,11 +335,16 @@ nav {
     font-size: 24px;
     font-weight: 400;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .three p {
     margin: -20px 21px 0px 876px;
     font-size: 51px;
+}
+.three:hover{
+    background-color: #9a9a9a66;
 }
 
 .four {
@@ -341,12 +357,17 @@ nav {
     font-size: 24px;
     font-weight: 400;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .four p {
     margin: -20px 21px 0px 908px;
     font-size: 51px;
 
+}
+.four:hover{
+    background-color: #9a9a9a66;
 }
 
 .five {
@@ -359,11 +380,16 @@ nav {
     font-size: 24px;
     font-weight: 400;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .five p {
     margin: -20px -128px 0px 770px;
     font-size: 51px;
+}
+.five:hover{
+    background-color: #9a9a9a66;
 }
 
 .six {
@@ -376,12 +402,17 @@ nav {
     font-size: 24px;
     font-weight: 400;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .six p {
     margin: -21px -85px 0px 830px;
     font-size: 51px;
 
+}
+.six:hover{
+    background-color: #9a9a9a66;
 }
 
 .last_info {
