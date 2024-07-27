@@ -47,6 +47,7 @@ nav {
     color: white;
     font-size: 14px;
     cursor: pointer;
+    text-align: center;
 }
 
 .btns>:nth-child(2) {
@@ -59,8 +60,11 @@ nav {
     font-weight: bold;
     color: white;
     font-size: 14px;
+    cursor: pointer;
 }
-
+.btns>:nth-child(2):hover{
+    background-color: rgb(191, 0, 0);
+}
 .box {
     background-color: black;
     height: 700px;
@@ -134,6 +138,10 @@ nav {
     font-weight: bold;
     color: white;
     font-size: 25px;
+    cursor: pointer;
+}
+.input>:nth-child(2):hover{
+    background-color: rgb(191, 0, 0);
 }
 
 .break {
@@ -484,6 +492,7 @@ footer> :nth-child(3) {
     color: white;
     font-size: 14px;
     cursor: pointer;
+    text-align: center;
 }
 
 .et {
